@@ -1,0 +1,61 @@
+# Ejercicio 1 - Matching Anything But a Newline
+regex_pattern = r"^...\....\....\....$"    # Do not delete 'r'.
+import re
+import sys
+
+test_string = input()
+
+match = re.match(regex_pattern, test_string) is not None
+
+print(str(match).lower())
+
+------------------------------------------------------------------------------------------------------------------
+
+# Ejercicio 2 - Matching {x} Repetitions
+Regex_Pattern = r'^[a-zA-Z02468]{40}[13579\s]{5}$'	# Do not delete 'r'.
+
+import re
+
+print(str(bool(re.search(Regex_Pattern, input()))).lower())
+
+------------------------------------------------------------------------------------------------------------------
+
+# Ejercicio 3 - Match Same Text Again and Again
+Regex_Pattern = r'^([a-z])(\w)(\s)(\W)(\d)(\D)([A-Z])([a-zA-Z])([aeiouAEIOU])(\S)\1\2\3\4\5\6\7\8\9\10$'	# Do not delete 'r'.
+
+import re
+
+print(str(bool(re.search(Regex_Pattern, input()))).lower())
+
+------------------------------------------------------------------------------------------------------------------
+
+# Ejercicio 4 - Alien Username
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import re
+
+pattern = r'^[_\.][0-9]+[a-zA-Z]*_?$'
+
+n = int(input())
+
+for _ in range(n):
+    alien_username = input().strip()
+    if re.match(pattern, alien_username):
+        print("VALID")
+    else:
+        print("INVALID")
+
+------------------------------------------------------------------------------------------------------------------
+
+# Ejercicio 5 - HackerRank Tweets
+import re
+
+n = int(input())
+pattern = r'hackerrank'
+count = 0
+
+for _ in range(n):
+    tweet = input()
+    if re.search(pattern, tweet, re.IGNORECASE):
+        count += 1
+
+print(count)

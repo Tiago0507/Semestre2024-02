@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EC08BD9-1E2E-B256-60F8-A80B67684DB5" containerWithKeyObject="B804853E-36C1-43EF-CBBB-7D8E43C931E0" localFKIndex="D23E3B58-A3AC-FC81-B3B6-6303B8776B95" name="FK_CONTACTS_CUSTOMERS">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>FK_CONTACTS_CUSTOMERS</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<referredTableLongName>OT.CUSTOMERS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>D280FE3B-DAD3-2D65-59DC-9F3AA35DE875</referredTableID>
+<keyObject>A048B4EC-EC39-E7D1-0482-47259011E826</keyObject>
+<referredKeyID>A048B4EC-EC39-E7D1-0482-47259011E826</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CUSTOMER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,34 @@
+
+    digraph textX {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    nodesep = 0.3
+    edge[dir=black,arrowtail=empty]
+
+
+102312966988272[ label="{SportsDSL|}"]
+
+102312966991856[ label="{Team|teamType: TeamType\lname: ID\l}"]
+
+102312966996016[ label="{Player|name: ID\lposition: ID\l}"]
+
+102312966999584[ label="{Score|opponent: ID\lpoints: INT\l}"]
+
+
+
+102312966988272 -> 102312966991856[arrowtail=diamond, dir=both, headlabel="teams 1..*"]
+102312966991856 -> 102312966996016[arrowtail=diamond, dir=both, headlabel="players 1..*"]
+102312966991856 -> 102312966999584[arrowtail=diamond, dir=both, headlabel="scores 1..*"]
+match_rules [ shape=plaintext, label=< <table>
+	<tr>
+		<td><b>TeamType</b></td><td>FOOTBALL|BASKETBALL|VOLLEYBALL</td>
+	</tr>
+</table> >]
+
+
+}

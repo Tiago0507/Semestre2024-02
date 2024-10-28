@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="836879BE-708B-41F8-D7A6-031E33E1A011" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="EMPLOYEES">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>EMPLOYEES</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:36:59 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="18DA7972-F051-7E16-4ECD-B9BFB850D868">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementStartWith>108</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="FIRST_NAME" id="2DE16BA4-C77C-1D07-0E2B-D92DA97202B6">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="3E25476F-FA06-16F7-9EB7-2C10F63AD98C">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="015C9CFE-BE17-C409-23C1-C8866AAC16EC">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="3A9A3692-FD09-B9EE-110F-5E527BDEAE70">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIRE_DATE" id="F58FB15B-2242-1B29-DE40-7E112ECE2538">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>HIRE_DATE</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID" id="812E191F-BAA0-FBC8-E9CD-7CCB156BCE60">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>MANAGER_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,12,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63F553AA-1C18-5716-6BFE-3B9DBCE07D29" referredColumn="18DA7972-F051-7E16-4ECD-B9BFB850D868"/>
+</associations>
+</Column>
+<Column name="JOB_TITLE" id="8FBD295B-2AE9-3D95-12D2-C3E3D75CB87C">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>JOB_TITLE</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE906B97-52BD-7FCA-8661-1B460E47B61D" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="EMPLOYEES_PK">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>SYS_C008334</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:13 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18DA7972-F051-7E16-4ECD-B9BFB850D868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69299A6F-8E6C-09DD-D224-F0C977FCCEBD" name="FK_EMPLOYEES_MANAGER">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="812E191F-BAA0-FBC8-E9CD-7CCB156BCE60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

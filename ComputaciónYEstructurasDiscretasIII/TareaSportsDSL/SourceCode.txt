@@ -1,0 +1,81 @@
+!pip install TextX
+import pydot
+from textx import metamodel_from_str
+from textx.export import model_export
+import pydot
+
+sports_grammar = '''
+SportsDSL:
+    teams += Team
+;
+
+Team:
+    'CREATE' teamType=TeamType 'TEAM' name=ID '{'
+        'PLAYERS:' players+=Player[',']
+        'SCORES:' scores+=Score[',']
+    '}'
+;
+
+Player:
+    name=ID 'POSITION' position=ID
+;
+
+Score:
+    opponent=ID ':' points=INT
+;
+
+TeamType:
+    'FOOTBALL' | 'BASKETBALL' | 'VOLLEYBALL'
+;
+
+ID: /[a-zA-Z_][a-zA-Z0-9_]*/;
+INT: /[0-9]+/;
+'''
+
+
+sports_metamodel = metamodel_from_str(sports_grammar)
+
+# Entrada del DSL
+sports_dsl_example = '''
+CREATE FOOTBALL TEAM Barcelona {
+    PLAYERS: Messi POSITION Forward, Romero POSITION Defender
+    SCORES: RealMadrid: 2, Atletico: 1
+}
+
+CREATE BASKETBALL TEAM Lakers {
+    PLAYERS: LeBron POSITION Forward, Jordan POSITION Center
+    SCORES: Celtics: 110, Clippers: 95
+}
+
+CREATE VOLLEYBALL TEAM SkyVolleys {
+    PLAYERS: Sarah POSITION Spiker, John POSITION Libero
+    SCORES: ThunderVolleys: 3, FireVolleys: 2
+}
+'''
+
+# Parseamos el modelo
+model = sports_metamodel.model_from_str(sports_dsl_example)
+
+model_export(model, "syntax_tree.dot")
+
+for team in model.teams:
+    print(f"Team: {team.name} ({team.teamType})")
+    print("Players:")
+    for player in team.players:
+        print(f"  {player.name} - {player.position}")
+    print("Scores:")
+    for score in team.scores:
+        print(f"  Against {score.opponent}: {score.points} points")
+    print()
+
+!textx generate sports_grammar.tx --target dot
+
+
+(graph,) = pydot.graph_from_dot_file('sports_grammar.dot')
+graph.write_png('metamodel.png')
+
+
+# Convertimos el archivo .dot en una imagen PNG
+(graph,) = pydot.graph_from_dot_file('syntax_tree.dot')
+graph.write_png('syntax_tree.png')
+

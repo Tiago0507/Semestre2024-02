@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A05C402-6B95-869C-21F7-7012F7A797AE" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="ORDERS">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>ORDERS</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:36:59 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="E7098839-F68A-3F97-C966-9E39153FDA71">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDER_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementStartWith>106</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="CUSTOMER_ID" id="16741A94-A35D-4955-F199-3A53ED442E24">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1948EF55-5FFF-0AAE-FD37-DB7BC89A6178" referredColumn="37B77151-C1C1-81D0-AFF3-D8E94A76157A"/>
+</associations>
+</Column>
+<Column name="STATUS" id="14F6A9F7-8B5B-C747-F9B8-AD5C511AEF7A">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALESMAN_ID" id="98DC627E-6388-1035-9CAF-F8DCBDB810D3">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SALESMAN_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A9229E5-EECB-B82F-5DAA-5AD6493EFA31" referredColumn="18DA7972-F051-7E16-4ECD-B9BFB850D868"/>
+</associations>
+</Column>
+<Column name="ORDER_DATE" id="25DB85D3-C4BB-80C9-1B1D-BECDF94DA9B9">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDER_DATE</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="702C945A-8287-6B9F-5499-9E300F645FC5" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="ORDERS_PK">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>SYS_C008357</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:13 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7098839-F68A-3F97-C966-9E39153FDA71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A10751FA-CD3F-40E5-D26C-ABEF62538AA2" name="FK_ORDERS_CUSTOMERS">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16741A94-A35D-4955-F199-3A53ED442E24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EE04441-48DF-7038-0A88-C868725520ED" name="FK_ORDERS_EMPLOYEES">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98DC627E-6388-1035-9CAF-F8DCBDB810D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

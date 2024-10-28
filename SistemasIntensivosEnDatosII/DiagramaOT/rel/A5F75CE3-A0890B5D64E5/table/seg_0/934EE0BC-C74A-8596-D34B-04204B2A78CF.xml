@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="934EE0BC-C74A-8596-D34B-04204B2A78CF" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="ORDER_ITEMS">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>ORDER_ITEMS</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:36:59 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="A18A3979-FB30-A3FD-2433-4AEEB6AD2190">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDER_ITEMS</sourceObjSchema>
+<sourceObjName>ORDER_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,12,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD8FAE00-8026-8C2B-C026-0D7AA237BEE0" referredColumn="E7098839-F68A-3F97-C966-9E39153FDA71"/>
+</associations>
+</Column>
+<Column name="ITEM_ID" id="6DD43368-FAC5-321A-0F9E-3F13E541ADEE">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDER_ITEMS</sourceObjSchema>
+<sourceObjName>ITEM_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,12,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_ID" id="6B3FAA0B-59D2-2CB4-E585-A5488EA25E8A">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDER_ITEMS</sourceObjSchema>
+<sourceObjName>PRODUCT_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,12,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE919A0B-4A47-56EA-0DA4-9E58DF1882C6" referredColumn="D1A75DCA-0CD8-6268-B5B2-AC3C77BA497A"/>
+</associations>
+</Column>
+<Column name="QUANTITY" id="DC755E6B-B33E-EAA0-FB7B-512239B77712">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDER_ITEMS</sourceObjSchema>
+<sourceObjName>QUANTITY</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_PRICE" id="767711BE-1CF5-4F5B-D818-A32CD5B3DBA6">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>ORDER_ITEMS</sourceObjSchema>
+<sourceObjName>UNIT_PRICE</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EF21785-C3FF-85DD-99D7-DFF4B356BC88" name="PK_ORDER_ITEMS">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>PK_ORDER_ITEMS</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:14 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A18A3979-FB30-A3FD-2433-4AEEB6AD2190"/>
+<colUsage columnID="6DD43368-FAC5-321A-0F9E-3F13E541ADEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66DE2B65-5554-3742-960E-598CF7F22E3A" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="PK_ORDER_ITEMS">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>PK_ORDER_ITEMS</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:13 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A18A3979-FB30-A3FD-2433-4AEEB6AD2190"/>
+<colUsage columnID="6DD43368-FAC5-321A-0F9E-3F13E541ADEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA85CA61-61CB-B1EF-D93C-0A4D423A9B1C" name="FK_ORDER_ITEMS_ORDERS">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A18A3979-FB30-A3FD-2433-4AEEB6AD2190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B27E3F8-214B-AA50-6208-5E23F2203033" name="FK_ORDER_ITEMS_PRODUCTS">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B3FAA0B-59D2-2CB4-E585-A5488EA25E8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CONTACTS" directorySegmentName="seg_0" id="B804853E-36C1-43EF-CBBB-7D8E43C931E0">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:36:59 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<schemaObject>F00FDD36-605C-2B2F-2C30-8A8CC7C96004</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BAE8F1DD-9C64-564F-3D24-720A948E1608</segment>
+<tableSpace>73959B2B-636A-4719-7AA4-42CDE1E16068</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FIRST_NAME" id="3CE57ED8-79AD-EB57-89CA-0F5DFD5ABB98">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTACT_ID" id="57216F83-B3DC-ED56-D109-04A1B10BE248">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ID" id="7D5590AF-AF33-6AB1-AAFD-588E8C444DDC">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="9B05F095-D31B-4C50-8205-12457A508EC5">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="F79D6DB4-8EFA-2C89-8044-FFF7FC867D1F">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="F7BF96BA-5B5F-21BA-160C-D85BC6ED6BD0">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CONTACTS_CUSTOMERS" id="D23E3B58-A3AC-FC81-B3B6-6303B8776B95">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONTACTS_PK" id="68E5A846-9FE3-EB7C-FDFB-6C23FBB4E795">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:14 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<schemaObject>F00FDD36-605C-2B2F-2C30-8A8CC7C96004</schemaObject>
+<segment>19241331-119D-9908-DB4D-1795D6B2B09B</segment>
+<tableSpace>73959B2B-636A-4719-7AA4-42CDE1E16068</tableSpace>
+<indexSegment>19241331-119D-9908-DB4D-1795D6B2B09B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

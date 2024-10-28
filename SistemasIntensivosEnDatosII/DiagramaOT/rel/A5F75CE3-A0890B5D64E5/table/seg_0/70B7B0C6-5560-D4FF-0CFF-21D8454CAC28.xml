@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70B7B0C6-5560-D4FF-0CFF-21D8454CAC28" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="PRODUCT_CATEGORIES">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>PRODUCT_CATEGORIES</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:36:59 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGORY_ID" id="9F8741B7-9AC4-F2DC-1593-794A533A392A">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>PRODUCT_CATEGORIES</sourceObjSchema>
+<sourceObjName>CATEGORY_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementStartWith>6</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="CATEGORY_NAME" id="14CC100F-ECF8-C7ED-08D8-38BE511176E7">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>PRODUCT_CATEGORIES</sourceObjSchema>
+<sourceObjName>CATEGORY_NAME</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="134F844B-3214-DD1F-E69A-48EF4F6C4AE4" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="PRODUCT_CATEGORIES_PK">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>SYS_C008338</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:13 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F8741B7-9AC4-F2DC-1593-794A533A392A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

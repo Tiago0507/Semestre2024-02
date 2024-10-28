@@ -1,0 +1,46 @@
+
+    digraph textX {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    nodesep = 0.3
+    edge[dir=black,arrowtail=empty]
+
+
+134754697817552 -> 134754697817744 [label="teams:0" arrowtail=diamond dir=both]
+134754697817744 -> 134754697817888 [label="players:0" arrowtail=diamond dir=both]
+134754697817888[label="{Messi:Player|+position:str='Forward'\l}"]
+134754697817744 -> 134754697817984 [label="players:1" arrowtail=diamond dir=both]
+134754697817984[label="{Romero:Player|+position:str='Defender'\l}"]
+134754697817744 -> 134754697818080 [label="scores:0" arrowtail=diamond dir=both]
+134754697818080[label="{:Score|+opponent:str='RealMadrid'\l+points:int=2\l}"]
+134754697817744 -> 134754697818176 [label="scores:1" arrowtail=diamond dir=both]
+134754697818176[label="{:Score|+opponent:str='Atletico'\l+points:int=1\l}"]
+134754697817744[label="{Barcelona:Team|+teamType:str='FOOTBALL'\l}"]
+134754697817552 -> 134754697817792 [label="teams:1" arrowtail=diamond dir=both]
+134754697817792 -> 134754697818320 [label="players:0" arrowtail=diamond dir=both]
+134754697818320[label="{LeBron:Player|+position:str='Forward'\l}"]
+134754697817792 -> 134754697818416 [label="players:1" arrowtail=diamond dir=both]
+134754697818416[label="{Jordan:Player|+position:str='Center'\l}"]
+134754697817792 -> 134754697818512 [label="scores:0" arrowtail=diamond dir=both]
+134754697818512[label="{:Score|+opponent:str='Celtics'\l+points:int=110\l}"]
+134754697817792 -> 134754697789248 [label="scores:1" arrowtail=diamond dir=both]
+134754697789248[label="{:Score|+opponent:str='Clippers'\l+points:int=95\l}"]
+134754697817792[label="{Lakers:Team|+teamType:str='BASKETBALL'\l}"]
+134754697817552 -> 134754697783584 [label="teams:2" arrowtail=diamond dir=both]
+134754697783584 -> 134754697817840 [label="players:0" arrowtail=diamond dir=both]
+134754697817840[label="{Sarah:Player|+position:str='Spiker'\l}"]
+134754697783584 -> 134754697818608 [label="players:1" arrowtail=diamond dir=both]
+134754697818608[label="{John:Player|+position:str='Libero'\l}"]
+134754697783584 -> 134754697818704 [label="scores:0" arrowtail=diamond dir=both]
+134754697818704[label="{:Score|+opponent:str='ThunderVolleys'\l+points:int=3\l}"]
+134754697783584 -> 134754697818800 [label="scores:1" arrowtail=diamond dir=both]
+134754697818800[label="{:Score|+opponent:str='FireVolleys'\l+points:int=2\l}"]
+134754697783584[label="{SkyVolleys:Team|+teamType:str='VOLLEYBALL'\l}"]
+134754697817552[label="{:SportsDSL|}"]
+
+}

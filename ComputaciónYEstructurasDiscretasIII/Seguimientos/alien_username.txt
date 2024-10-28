@@ -1,0 +1,13 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import re
+
+pattern = r'^[_\.][0-9]+[a-zA-Z]*_?$'
+
+n = int(input())
+
+for _ in range(n):
+    alien_username = input().strip()
+    if re.match(pattern, alien_username):
+        print("VALID")
+    else:
+        print("INVALID")

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE64865-BE11-5CFB-B80F-C223E488AA31" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="WAREHOUSES">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>WAREHOUSES</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:36:59 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WAREHOUSE_ID" id="85DB2B0B-90B3-AE8C-8180-BFF5515C1970">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>WAREHOUSES</sourceObjSchema>
+<sourceObjName>WAREHOUSE_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementStartWith>10</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="WAREHOUSE_NAME" id="6C30E480-CE43-C52E-2BB1-6CC480FA1C63">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>WAREHOUSES</sourceObjSchema>
+<sourceObjName>WAREHOUSE_NAME</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_ID" id="62A74E3F-71A3-FCB1-76AD-F889FEC70B98">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>WAREHOUSES</sourceObjSchema>
+<sourceObjName>LOCATION_ID</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,12,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="291954AB-D7FF-072A-60E9-0429A21C17F7" referredColumn="2527F54E-1F78-EFAE-507D-534ED1369977"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60EB14B8-031F-1ADF-FCDF-1CFF08464D72" schemaObject="F00FDD36-605C-2B2F-2C30-8A8CC7C96004" name="WAREHOUSES_PK">
+<sourceConnName>OT</sourceConnName>
+<sourceObjSchema>OT</sourceObjSchema>
+<sourceObjName>SYS_C008325</sourceObjName>
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:13 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85DB2B0B-90B3-AE8C-8180-BFF5515C1970"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30AE212E-93BB-2E78-B35D-79A8E4681FB2" name="FK_WAREHOUSES_LOCATIONS">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62A74E3F-71A3-FCB1-76AD-F889FEC70B98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

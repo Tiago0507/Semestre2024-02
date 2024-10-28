@@ -1,0 +1,15 @@
+sports_grammar = '''
+Team:
+    teams += SportTeam
+;
+
+SportTeam:
+    'team' name=ID '{' 'sport' sport=SportType 'players' players+=Player ','* '}'
+;
+
+Player:
+    name=ID 'position' position=ID
+;
+
+SportType: 'football' | 'basketball' | 'volleyball';
+'''

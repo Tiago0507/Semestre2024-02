@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="WAREHOUSES" directorySegmentName="seg_0" id="AAE64865-BE11-5CFB-B80F-C223E488AA31">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:36:59 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<schemaObject>F00FDD36-605C-2B2F-2C30-8A8CC7C96004</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BAE8F1DD-9C64-564F-3D24-720A948E1608</segment>
+<tableSpace>73959B2B-636A-4719-7AA4-42CDE1E16068</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOCATION_ID" id="62A74E3F-71A3-FCB1-76AD-F889FEC70B98">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WAREHOUSE_NAME" id="6C30E480-CE43-C52E-2BB1-6CC480FA1C63">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WAREHOUSE_ID" id="85DB2B0B-90B3-AE8C-8180-BFF5515C1970">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WAREHOUSES_LOCATIONS" id="30AE212E-93BB-2E78-B35D-79A8E4681FB2">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WAREHOUSES_PK" id="60EB14B8-031F-1ADF-FCDF-1CFF08464D72">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:14 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<schemaObject>F00FDD36-605C-2B2F-2C30-8A8CC7C96004</schemaObject>
+<segment>19241331-119D-9908-DB4D-1795D6B2B09B</segment>
+<tableSpace>73959B2B-636A-4719-7AA4-42CDE1E16068</tableSpace>
+<indexSegment>19241331-119D-9908-DB4D-1795D6B2B09B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

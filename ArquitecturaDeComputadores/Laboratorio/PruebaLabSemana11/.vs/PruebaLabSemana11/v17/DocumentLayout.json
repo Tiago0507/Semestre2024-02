@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\svale\\Downloads\\Semestre2024-02\\ArquitecturaDeComputadores\\Laboratorio\\PruebaLabSemana11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F24460C2-2521-4E73-AF2D-4235C0DC7B28}|PruebaLabSemana11.vcxproj|C:\\Users\\svale\\Downloads\\Semestre2024-02\\ArquitecturaDeComputadores\\Laboratorio\\PruebaLabSemana11\\PruebaLabSemana11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F24460C2-2521-4E73-AF2D-4235C0DC7B28}|PruebaLabSemana11.vcxproj|solutionrelative:PruebaLabSemana11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PruebaLabSemana11.cpp",
+              "DocumentMoniker": "C:\\Users\\svale\\Downloads\\Semestre2024-02\\ArquitecturaDeComputadores\\Laboratorio\\PruebaLabSemana11\\PruebaLabSemana11.cpp",
+              "RelativeDocumentMoniker": "PruebaLabSemana11.cpp",
+              "ToolTip": "C:\\Users\\svale\\Downloads\\Semestre2024-02\\ArquitecturaDeComputadores\\Laboratorio\\PruebaLabSemana11\\PruebaLabSemana11.cpp",
+              "RelativeToolTip": "PruebaLabSemana11.cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T01:16:12.463Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+import re
+
+n = int(input())
+pattern = r'hackerrank'
+count = 0
+
+for _ in range(n):
+    tweet = input()
+    if re.search(pattern, tweet, re.IGNORECASE):
+        count += 1
+
+print(count)

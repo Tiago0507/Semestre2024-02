@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="EMPLOYEES" directorySegmentName="seg_0" id="836879BE-708B-41F8-D7A6-031E33E1A011">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:36:59 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<schemaObject>F00FDD36-605C-2B2F-2C30-8A8CC7C96004</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BAE8F1DD-9C64-564F-3D24-720A948E1608</segment>
+<tableSpace>73959B2B-636A-4719-7AA4-42CDE1E16068</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMAIL" id="015C9CFE-BE17-C409-23C1-C8866AAC16EC">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEE_ID" id="18DA7972-F051-7E16-4ECD-B9BFB850D868">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="2DE16BA4-C77C-1D07-0E2B-D92DA97202B6">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="3A9A3692-FD09-B9EE-110F-5E527BDEAE70">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="3E25476F-FA06-16F7-9EB7-2C10F63AD98C">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANAGER_ID" id="812E191F-BAA0-FBC8-E9CD-7CCB156BCE60">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_TITLE" id="8FBD295B-2AE9-3D95-12D2-C3E3D75CB87C">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIRE_DATE" id="F58FB15B-2242-1B29-DE40-7E112ECE2538">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:01 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_EMPLOYEES_MANAGER" id="69299A6F-8E6C-09DD-D224-F0C977FCCEBD">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:17 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLOYEES_PK" id="FE906B97-52BD-7FCA-8661-1B460E47B61D">
+<createdBy>svale</createdBy>
+<createdTime>2024-08-21 03:37:14 UTC</createdTime>
+<ownerDesignName>DiagramaOT</ownerDesignName>
+<schemaObject>F00FDD36-605C-2B2F-2C30-8A8CC7C96004</schemaObject>
+<segment>19241331-119D-9908-DB4D-1795D6B2B09B</segment>
+<tableSpace>73959B2B-636A-4719-7AA4-42CDE1E16068</tableSpace>
+<indexSegment>19241331-119D-9908-DB4D-1795D6B2B09B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
